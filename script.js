@@ -3,10 +3,10 @@ const addButton = document.querySelector('#add-button');
 const todosContainer = document.querySelector('.todos-container');
 
 addButton.addEventListener('click', () => {
-    if (textInput.value.trim().length == '')
+    if (textInput.value.trim().length == ''){
         alert("Please Add Task !");
         return;
-
+    }
     // create div add class todo-item-container 
     const todoItemContainer = document.createElement('div');
     todoItemContainer.classList.add('todo-item-container');
