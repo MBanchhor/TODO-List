@@ -4,6 +4,7 @@ const todosContainer = document.querySelector('.todos-container');
 
 addButton.addEventListener('click', () => {
     if (textInput.value.trim().length == '')
+        alert("Please Add Task !");
         return;
 
     // create div add class todo-item-container 
